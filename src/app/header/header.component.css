@@ -1,6 +1,6 @@
 /* Design av Header */
 header {
-    min-height: 12vh;
+    min-height: 10vh;
     background-color: #964B00;
     margin: 0;
     position: relative;
@@ -39,20 +39,20 @@ nav ul {
 }
 
 nav li {
-    padding: 0.8em 0;
+    padding: 1em 0;
     width: 100%;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding:0.9em;
+    padding:1em;
 }
 
 nav li:hover {
     background-color: rgb(94, 15, 15);
     cursor: pointer;
-    padding: 0.8em 0;
+    padding: 1em 0;
 }
 
 /* Meny knapp, öppna meny */

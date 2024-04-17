@@ -1,0 +1,26 @@
+
+
+p{
+    font-weight: bold;
+    font-size: large;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#length, #temp{
+    width: 50%;
+    margin: 2vh  auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    height: 5vh;
+    width: 5vw;
+}
