@@ -1,6 +1,6 @@
 <header>
     <h1 class="logo"><a href="index.html">Angular</a></h1>
-    <button class="menu-btn open" id="open-menu">
+    <button class="menu-btn open" id="open-menu" (click)="toggleMenu()">
         <span class="menu-icon">
             <span class="bars"></span>
             <span class="bars"></span>
@@ -9,7 +9,7 @@
         <span class="menu-text">Meny</span>
     </button>
     <nav id="nav-menu">
-        <button class="menu-btn close" id="close-menu">
+        <button class="menu-btn close" id="close-menu" (click)="toggleMenu()">
             <span class="menu-icon">
                 <span class="bars cross1"></span>
                 <span class="bars cross2"></span>
