@@ -1,1 +1,21 @@
-<p>convert works!</p>
+<div id="length">
+<span>
+    <label for="feet">Fot:</label>
+    <input type="number" id="feet" [(ngModel)]="footNum" (input)="footToMeter()">
+</span>
+<span>
+    <label for="meter">Meter:</label>
+    <input type="number" id="meter" [(ngModel)]="meterNum" (input)="meterToFeet()">
+</span>
+</div>
+
+<div id="temp">
+    <span>
+        <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" [(ngModel)]="celNum" (input)="celToFahr()">
+    </span>
+    <span>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" [(ngModel)]="fahrNum" (input)="farhToCel()">
+    </span>
+</div>
